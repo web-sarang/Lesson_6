@@ -1,0 +1,246 @@
+@import "null.css";
+
+@font-face {
+    font-family: "CircularStd-Medium";
+    src: url('../fonts/CircularStd-Medium.woff2') format("woff2"), url('../fonts/CircularStd-Medium.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CircularStd-Book";
+    src: url('../fonts/CircularStd-Book.woff2') format("woff2"), url('../fonts/CircularStd-Book.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CircularStd-Bold";
+    src: url('../fonts/CircularStd-Bold.woff2') format('woff2'), url('../fonts/CircularStd-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.page {
+    max-width: 1440px;
+    padding: 0px 20px;
+    font-family: "CircularStd-Book", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #5F5F5F;
+}
+
+.container {
+    max-width: 1025px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0px 0px 100px 0px;
+}
+
+.menu-link {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(221, 14, 111);
+    text-decoration: underline;
+}
+.return {
+    color: rgb(4, 78, 4);
+}
+
+/* For Figma */
+.intro {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 224px;
+    text-align: center;
+}
+
+
+.testimonials-title {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: "CircularStd-Medium", sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 1.3;
+    text-align: center;
+    color: #313131;
+
+}
+
+.testimonials-text {
+    font-size: 20px;
+    line-height: 1.26;
+    text-align: center;
+    color: #5F5F5F;
+}
+
+.content {
+    max-width: 508px;
+    margin: 0px 0px 30px 0px;
+}
+
+.content-title {
+    margin: 0px 0px 20px 0px;
+    font-family: "CircularStd-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.3;
+    color: rgba(49, 49, 49, 0.88);
+}
+
+.content-text {
+    margin-bottom: 125px;
+}
+
+.author-name {
+    font-family: "CircularStd-Bold", sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #313131;
+}
+
+.author-info {
+    font-family: "CircularStd-Book", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #B8B8B8;
+}
+
+.footer {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(4, 78, 4);
+}
+
+/*   */
+
+.lesson-number {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+
+.article-title {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(11, 25, 68);
+}
+.block {
+    padding: 30px;
+    background-color: rgba(47, 184, 189, 0.281);
+}
+.block-subtitle {
+    margin: 0px 0px 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.block-item {
+    width: 400px;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+    background-color: rgb(211, 90, 161);
+}
+
+.item-4 {
+    border: 5px solid #000;
+    border-radius: 20px;    
+}
+
+.item-2 {
+    border: 10px dotted rgb(209, 206, 45);
+    border-radius : 15px 10px 20% 20px;
+    outline: 5px solid red;
+}
+
+.item-3 {
+    border: 5px dashed rgb(16, 165, 73);
+    border-radius : 10px 50px;
+    border-top: none;
+}
+
+.item-1 {
+    margin-bottom: 50px;
+    border: 10px double rgb(79, 194, 202);
+    box-shadow: -10px 10px 5px 5px #fff,
+    -5px 20px 10px 10px rgb(105, 17, 68);
+}
+
+.block-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px dashed #fff;
+}
+.block-image-1 {
+    opacity: 0.6;
+    border: 5px solid rgb(22, 22, 17)
+}
+
+.block-image3 img {
+    border: 5px solid rgb(204, 26, 35);
+    border-radius: 10px 40px;
+}
+
+.line {
+    font-size: 20px;
+    line-height: 2;
+}
+.line-1 {
+    outline: 4px dashed rgb(2, 16, 65);
+}.line-2 {
+    border-bottom: 5px dotted rgb(221, 99, 18);
+
+}
+
+.block-link {
+    display: inline-block;  
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 25px;
+    background-color: rgb(20, 182, 33);
+    border: 4px solid rgb(2, 43, 6);
+    border-radius: 5px;
+    box-shadow : 10px 3px 10px 5px rgb(19, 77, 41);
+    color: #fff;
+    
+}
+
+.item-5 {
+    opacity: 0.8;
+    border-radius: 10px;
+    outline: 5px dashed rgb(107, 3, 51);
+
+}
+
+.block-item.item-6 {
+    border: 5px solid rgb(199, 202, 12);
+    box-shadow: inset 5px 3px 20px 10px #fff; 
+    border-radius: 10px;
+    outline: 5px dashed rgb(107, 3, 51);
+}
+
+.sample {
+    visibility: hidden;
+}
+
+.block-link-1 {
+    opacity: 0;
+}
