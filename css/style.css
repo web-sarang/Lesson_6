@@ -24,6 +24,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Lobster";
+    src: url('../fonts/Lobster-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -142,6 +150,10 @@
     color: rgb(11, 25, 68);
 }
 .block {
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     padding: 30px;
     background-color: rgba(47, 184, 189, 0.281);
 }
