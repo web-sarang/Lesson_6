@@ -50,6 +50,7 @@
 
 .container {
     max-width: 1025px;
+    padding: 30px;
     margin: 0 auto;
 }
 
@@ -98,7 +99,6 @@
 
 .content {
     max-width: 508px;
-    margin: 0px 0px 30px 0px;
 }
 
 .content-title {
